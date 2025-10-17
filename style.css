@@ -1,0 +1,89 @@
+ /* 🌟 Overall Page Style */
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: "Poppins", sans-serif;
+      background: linear-gradient(135deg, #01473a, #9face6);
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    /* 📦 Main Box */
+    .box {
+      background: #3da4f8cc;
+      backdrop-filter: blur(8px);
+      border-radius: 20px;
+      box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);
+      padding: 90px 50px;
+      text-align: center;
+      width: 350px;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .box:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 12px 30px rgba(0, 0, 0, 0.25);
+    }
+
+    /* 🏷️ Heading */
+    h2 {
+      color: #333;
+      font-size: 1.6rem;
+      margin-bottom: 20px;
+    }
+
+    /* ✏️ Input Field */
+    input[type="text"] {
+      width: 100%;
+      padding: 12px;
+      border: none;
+      outline: none;
+      border-radius: 10px;
+      background: #f3f3f3;
+      font-size: 15px;
+      box-shadow: inset 0 2px 5px rgba(0,0,0,0.1);
+      transition: 0.3s;
+    }
+
+    input[type="text"]:focus {
+      background: #fff;
+      box-shadow: 0 0 8px rgba(100, 149, 237, 0.5);
+    }
+
+    /* 🧠 Button */
+    button {
+      margin-top: 15px;
+      padding: 10px 20px;
+      font-size: 16px;
+      color: white;
+      background: linear-gradient(90deg, #667eea, #764ba2);
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: all 0.3s ease;
+    }
+
+    button:hover {
+      background: linear-gradient(90deg, #764ba2, #667eea);
+      transform: scale(1.05);
+    }
+
+    /* 🖼️ QR Box */
+    #qrBox {
+      margin-top: 25px;
+    }
+
+    #qrBox img {
+      width: 200px;
+      height: 200px;
+      border-radius: 10px;
+      margin-top: 10px;
+      box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+      transition: transform 0.3s ease;
+    }
+
+    #qrBox img:hover {
+      transform: scale(1.1);
+    }
